@@ -19,6 +19,6 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  coupons.each do 
-binding.pry
+  coupons.each do |coupon|
+    binding.pry  
 end
