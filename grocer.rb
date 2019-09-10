@@ -27,5 +27,6 @@ def apply_coupons(cart, coupons)
     elsif coupon[:item][:count]>=coupon[:num] && cart["#{item} W/COUPON"]
     
     binding.pry  
+  end
 end
 end
