@@ -22,3 +22,4 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     binding.pry  
 end
+end
